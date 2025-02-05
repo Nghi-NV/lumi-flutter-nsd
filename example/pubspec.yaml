@@ -3,7 +3,7 @@ description: "Demonstrates how to use the nsd plugin."
 publish_to: 'none' 
 
 environment:
-  sdk: '>=3.4.1 <4.0.0'
+  sdk: '>=3.2.0'
 
 dependencies:
   flutter:

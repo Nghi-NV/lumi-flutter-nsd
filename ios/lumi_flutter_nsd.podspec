@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 A Flutter plugin for discovering network services using NSD (Network Service Discovery) on Android and Bonjour on iOS. This plugin enables your app to find services on a local network.A Flutter plugin for discovering network services using NSD (Network Service Discovery) on Android and Bonjour on iOS. This plugin enables your app to find services on a local network.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://github.com/Nghi-NV/lumi-flutter-nsd'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Lumi' => 'nghinv990@gmail.com' }
   s.source           = { :path => '.' }

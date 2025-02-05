@@ -1,0 +1,26 @@
+name: lumi_flutter_nsd
+description: "A Flutter plugin for discovering network services using NSD (Network Service Discovery) on Android and Bonjour on iOS. This plugin enables your app to find services on a local network."
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=3.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.lumi.nsd
+        pluginClass: NsdPlugin
+      ios:
+        pluginClass: NsdPlugin
